@@ -1,5 +1,6 @@
 HackerMan is a simple fun project that simulates a hacker-style terminal using HTML, CSS, and JavaScript.
 This project creates a Matrix-inspired animation with typing effects and sound for a playful, aesthetic look.
+
 ⚠️ Note: This project is for entertainment/education only. It does not perform any real hacking.
 
 # Features
