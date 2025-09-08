@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hackerman</title>
+</head>
+<body>
+    <audio id="music" src="sound.mp3" autoplay loop></audio>
+    <div class="box">
+        <!-- <div id="username-container">
+            <p id="ask-username">Enter your username:</p>
+            <input type="text" id="username-input" placeholder="Username">
+            <button id="submit-username">Submit</button>
+        </div> -->
+        <div id="text"></div>
+    </div>
+    <script>
+        const music = document.getElementById('music');
+
+        // Unmute and play on user interaction
+        window.addEventListener('click', () => {
+            music.muted = false; // Ensure unmuted
+            music.play().catch(err => console.error('Autoplay blocked:', err));
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
